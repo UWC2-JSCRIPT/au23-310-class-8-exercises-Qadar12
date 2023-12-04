@@ -1,6 +1,6 @@
 // create api-key.js file with const API_KEY="your_api_key" in this same directory to use
 const BASE_URL = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
-API_KEY = "FIW2P8fg2UWNZ235VGwRGx0lmTQkh007";
+const API_KEY = "FIW2P8fg2UWNZ235VGwRGx0lmTQkh007";
 
 // q=cars
 const url = `${BASE_URL}?q=cars&api-key=${API_KEY}`;
