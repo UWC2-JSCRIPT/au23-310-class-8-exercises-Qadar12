@@ -23,7 +23,7 @@ formEl.addEventListener("submit", function (e) {
       let bookArray = responseJson.results.books;
       console.log(bookArray);
 
-      // Clear out the old content and 5 books
+      // Clear out the old content and add books
       const bookContainer = document.getElementById("books-container");
       bookContainer.innerHTML = "";
 
